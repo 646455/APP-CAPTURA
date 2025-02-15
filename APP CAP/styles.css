@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo de Amazon */
+.logo {
+    width: 150px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Sección de entrada de email */
+.input-section {
+    margin-bottom: 15px;
+}
+
+/* Campo de entrada de email */
+.input-field {
+    width: calc(100% - 22px);
+    padding: 10px 11px;
+    border: 1px solid #0071bd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botón Continuar */
+.continue-button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.continue-button:hover {
+    background-color: #E68A00;
+}
+
+/* Texto legal */
+.legal-text {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    text-align: left;
+}
+
+/* Sección de ayuda */
+.help-section, .business-section {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Sección de Amazon Business */
+.business-section a {
+    text-decoration: underline;
+    color: #0071bd;
+}
+
+/* Botón Crear cuenta */
+.create-account-button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.create-account-button:hover {
+    background-color: #000;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+}
+
+footer a {
+    margin: 0 5px;
+    font-size: 12px;
+    color: #555;
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 400px) {
+    .container {
+        max-width: 95%;
+        margin: 10px;
+    }
+    .logo {
+        width: 120px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .input-field, .continue-button, .create-account-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    p, a {
+        font-size: 12px;
+    }
+    footer {
+        font-size: 10px;
+    }
+}

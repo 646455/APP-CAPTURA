@@ -1,0 +1,1 @@
+// Este archivo está vacío y listo para ser utilizado snii se requiere funcionalidad de JavaScript en el futuro.
